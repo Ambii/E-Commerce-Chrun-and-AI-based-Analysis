@@ -1,0 +1,30 @@
+# Environment & Secret files (CRITICAL: Keeps API keys private)
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Data files (Optional: ignore large local datasets if needed)
+*.csv
+*.xlsx
+!.gitkeep
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE Configuration
+.vscode/
+.idea/
