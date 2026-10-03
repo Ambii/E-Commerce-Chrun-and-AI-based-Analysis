@@ -1,4 +1,4 @@
-Customer Retention & Churn Intelligence Hub
+# Customer Retention & Churn Intelligence Hub
 
 An AI-powered customer intelligence application that transforms buried, unorganized support reviews into actionable churn risk metrics, complaint categorizations, and automated retention outreach.
 
@@ -13,9 +13,9 @@ E-commerce businesses suffer significant customer churn because negative feedbac
 
 ---
 
-System Architecture & Workflow
+# System Architecture & Workflow
 
-─────────────────────────┐
+┌─────────────────────────┐
 │ Raw CSV / Excel Dataset │
 └────────────┬────────────┘
 │
@@ -33,9 +33,6 @@ System Architecture & Workflow
 ┌─────────────────────────┐
 │ Streamlit Interactive UI│ ──► Renders KPI Dashboard, Filtering & Email Drafts
 └─────────────────────────┘
-
-
----
 
 Key Features
 
