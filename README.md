@@ -1,7 +1,5 @@
 # 🛍️ Customer Retention & Churn Intelligence Hub
 
-> Developed for **10Pearls Women Tech Quest (WTQ) 2026 — Build with AI Track (Karachi)**.
-
 An AI-powered customer intelligence application that transforms buried, unorganized support reviews into actionable churn risk metrics, complaint categorizations, and automated retention outreach.
 
 ---
