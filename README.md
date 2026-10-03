@@ -4,7 +4,7 @@ An AI-powered customer intelligence application that transforms buried, unorgani
 
 ---
 
-Problem Statement & Business Value
+## Problem Statement & Business Value
 
 E-commerce businesses suffer significant customer churn because negative feedback remains hidden inside unstructured support reviews and unresolved tickets. 
 
@@ -13,7 +13,7 @@ E-commerce businesses suffer significant customer churn because negative feedbac
 
 ---
 
-# System Architecture & Workflow
+## System Architecture & Workflow
 
 ┌─────────────────────────┐
 │ Raw CSV / Excel Dataset │
@@ -34,7 +34,7 @@ E-commerce businesses suffer significant customer churn because negative feedbac
 │ Streamlit Interactive UI│ ──► Renders KPI Dashboard, Filtering & Email Drafts
 └─────────────────────────┘
 
-Key Features
+## Key Features
 
 - Automated Churn KPI Dashboard:** Instantly flags high-risk customers based on inactivity (`Days_Since_Last_Order > 60`) and support ticket thresholds.
 - AI Sentiment & Complaint Triage:** Passes raw review text to Google Gemini to identify root causes (e.g., Shipping Delays, Defective Products, Return Hassles).
@@ -43,7 +43,7 @@ Key Features
 
 ---
 
-Tech Stack
+## Tech Stack
 
 - Frontend & UI: [Streamlit](https://streamlit.io/) (Python 3.10+)
 - Data Processing: [Pandas](https://pandas.pydata.org/)
@@ -52,7 +52,7 @@ Tech Stack
 
 ---
 
-AI Integration & Prompt Strategy
+## AI Integration & Prompt Strategy
 
 The application uses targeted zero-shot system prompts sent to `gemini-1.5-flash` to guarantee concise, structured business outputs:
 
